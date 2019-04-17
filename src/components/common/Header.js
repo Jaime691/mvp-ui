@@ -2,7 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const Header = () => (
   <nav>
-    <ul>
+    <ul
+      style={{
+        display: 'flex',
+        justifyContent: 'space-evenly',
+        listStyle: 'none'
+      }}
+    >
       <li>
         <Link to='/'>Home</Link>
       </li>
